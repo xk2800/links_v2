@@ -1,3 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --myred: #9b111a;
+    --mydarkred: #740c13;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 50%;
+}
+
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #C0C0C0; 
+}
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
