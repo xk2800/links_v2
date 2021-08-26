@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import NavLink from '../components/NavLink';
 import Footer from '../components/Footer';
 import { links } from '../globalvariables';
@@ -9,7 +10,7 @@ export default function Home() {
         <div className="bg-gray-100 text-center font-main">
             <Head>
                 <title>My Links | Xavier K.</title>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/favicon.png" />
             </Head>
 
             <main className="text-center">
@@ -27,7 +28,7 @@ export default function Home() {
                 </div>
 
             </main>
-            <Footer/>
+            <Footer />
 
         </div>
     );
