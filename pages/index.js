@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import NavLink from '../components/NavLink';
+import Footer from '../components/Footer';
 import { links } from '../globalvariables';
 
 
@@ -26,6 +27,7 @@ export default function Home() {
                 </div>
 
             </main>
+            <Footer/>
 
         </div>
     );
