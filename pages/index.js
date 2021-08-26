@@ -15,19 +15,23 @@ export default function Home() {
 
             <main className="text-center">
 
+                <Image src="/logo.png" alt="Xavier K. Logo" width={280}  height={280}/>
+
                 {/* header */}
-                <p className="text-5xl pb-4">Xavier K.</p>
-                <p className="text-4xl pb-4">Get In Touch With Me</p>
+                <p className="text-4xl md:text-5xl pb-4">Xavier K.</p>
+                <p className="text-3xl md:text-4xl pb-4">Get In Touch With Me</p>
                 <br />
 
                 {/* pill links */}
-                <div className=''>
+                <div>
                     {links.map(({ name, href }) => (
                         <NavLink href={href} name={name} key={name} />
                     ))}
                 </div>
 
             </main>
+
+            {/* footer */}
             <Footer />
 
         </div>
