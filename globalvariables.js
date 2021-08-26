@@ -1,5 +1,7 @@
 export const links = [
-    { name: 'github', href: 'https://github.com/xk2800' },
-    { name: 'linkedin', href: 'https://linkedin.com/in/plaxamana' },
-    { name: 'website', href: 'https://xavierkhew.tech' },
+    { name: 'My Website', href: 'https://xavierkhew.tech' },
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/xavier-khew/' },
+    { name: 'Github', href: 'https://github.com/xk2800' },
+    { name: 'Email Me', href:'mailto:contact.xavierk@gmail.com'}
+    
 ]
